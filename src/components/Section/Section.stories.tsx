@@ -21,10 +21,12 @@ export const Default: Story = {
       {
         name: "Jane Doe",
         thumbnail: `https://ui-avatars.com/api/?name=Jane+Doe&background=random`,
+        status: "attended",
       },
       {
         name: "John Smith",
         thumbnail: `https://ui-avatars.com/api/?name=John+Smith&background=random`,
+        status: "attended",
       },
     ],
   },
@@ -39,11 +41,13 @@ export const SectionWithEmail: Story = {
         name: "Jane Doe",
         email: "jane.doe@example.com",
         thumbnail: `https://ui-avatars.com/api/?name=Jane+Doe&background=random`,
+        status: "attended",
       },
       {
         name: "John Smith",
         email: "john.smith@example.com",
         thumbnail: `https://ui-avatars.com/api/?name=John+Smith&background=random`,
+        status: "attended",
       },
     ],
   },
